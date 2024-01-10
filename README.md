@@ -44,4 +44,3 @@ CONCLUSIONES
 El proyecto "ASSI" es una iniciativa prometedora que tiene el potencial de revolucionar la educación infantil. El proyecto aborda una serie de problemas comunes en la educación infantil, y utiliza un enfoque innovador que puede ser muy eficaz.
 Los resultados de las pruebas realizadas hasta la fecha han sido positivos, y han demostrado que el proyecto puede ayudar a los niños a aprender de manera más efectiva y motivadora.
 El proyecto "ASSI" aún se encuentra en desarrollo, pero tiene el potencial de ser una herramienta valiosa para mejorar la educación infantil en todo el mundo.
-![image](https://github.com/OscarGalante/Proyecto_Hack4edu_ASSI/assets/156230547/8e0f4b15-fed2-41e2-82f8-1e593798f09f)
