@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mascota ASSI</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="mascota-container">
+        <div id="mascota" onclick="toggleChat()"><img src="Assis.png" id="imagen" style="width: 160px" class="movable"></div>
+        <div id="chat" style="display: none;">
+            <div id="chat-container">
+                <!-- Aquí se mostrarán los mensajes del chat -->
+            </div>
+            <div id="chat-input-container">
+                <input type="text" id="mensaje" placeholder="Escribe tu mensaje..." onkeydown="enviarMensaje(event)">
+                <button id="cerrar" onclick="cerrarChat()">❌</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

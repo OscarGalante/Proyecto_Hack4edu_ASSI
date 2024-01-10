@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('Fondo.png'); /* Reemplaza 'nombre_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+}
+
+#mascota-container {
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+
+.movable {
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: moveLeftRight 3s ease-in-out infinite;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        left: 0;
+        transform: translateX(-20px);
+    }
+    50% {
+        left: calc(100% - 50px);
+        transform: translateX(20px);
+    }
+    100% {
+        left: 0;
+        transform: translateX(-20px);
+    }
+}
+
+#chat {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#chat-container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+#chat-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mensaje {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#cerrar {
+    font-size: 1.5em;
+    color: red;
+    cursor: pointer;
+}
